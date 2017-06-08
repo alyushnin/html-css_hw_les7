@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Ubuntu&subset=cyrillic,cyrillic-ext');
+* a {
+	text-decoration: none;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+	margin: 0;
+	padding: 0;
+	color: #212121; /*Цвет текста MD_Grey900*/
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	float: left;
+	box-sizing: border-box;
+	/*Для задания*/
+}
+span { 
+	color: #FF6F00; /*Цвет текста MD_Amber900*/
+}
+.header {
+	width: 78%;
+	height: 60px;
+	margin: 0 auto;
+	padding: 1%;
+	background: #212121; /*Цвет текста MD_Grey900*/
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+.header_logo {
+	width: 230px;
+	float: left;
+	padding: 5px;
+}
+.header_logo a {
+	color: #FFD54F; /*Цвет текста MD_Amber300*/
+	font-size: 3em;
+	font-family: 'Barrio', sans-serif;
+	text-decoration: none;
+}
+.header_menu {
+	width: 500px;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+}
+.header_menu_links {
+	float: left;
+	font-size: 1.4em;
+	margin-right: 2%;
+	padding: 5px;
+}
+.header_menu_links a {
+	text-decoration: none;
+	color: #FF8F00; /*Цвет текста MD_Amber900*/
+}
+.header_menu_links:hover {
+	color: #FF6F00; /*Цвет текста MD_Amber900*/
+}
+.container {
+	width: 100%;
+	align-content: center;
+}
+.content {
+	clear: both;
+	width: 74%;
+	margin: 0 auto;
+	padding: 2% 2% 3% 4%; /*сверху справа снизу слева*/
+	background: #E0E0E0; /*Цвет текста MD_Grey300*/
+	/*Для задания*/
+}
+.content_product {
+	display: flex;
+	flex-direction: row;
+}
+.button {
+	margin: 10px 0px 20px 0px;
+	display: inline-block;
+	padding: 5px;
+	border: 2px	inset #FFD54F;
+	background: #212121;
+	color: #FF8F00; /*Цвет текста MD_Amber900*/
+	font-size: 2em;
+}
+.button a {
+	color: #FFD54F; /*Цвет текста MD_Amber300*/
+}
+.button:hover {
+	background: #424242; /*Цвет текста MD_Grey800*/
+}
+.button:active {
+	background: #FF8F00; /*Цвет текста MD_Amber800*/
+}
+
+.footer {
+	width: 78%;
+	height: 40px;
+	margin: 0 auto;
+	padding: 1%;
+	background: #9E9E9E; /*Цвет текста MD_Grey500*/
+	/*для задания*/
+}
+
+/*Временно для задания*/
+/*При вводе текста в поле “Email” на странице контактной информации поменять цвет текста и цвет поля.*/
+.colortext {
+	background-color: orange; /* Цвет фона */
+	color: white; /* Цвет текста */
+}
+/*При вводе текста в текстовые поля каждое слово должно начинаться с большой буквы, даже если пользователь будет вводить с маленькой буквы.*/
+input, textarea {text-transform: capitalize;}
+
+/*Прижать текст “Все права защищены” к правому краю и отодвинуть от верхней и правой границы.*/
+.footer_all-rights-reserved {
+	float: right;
+
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+.content_short-desk {
+	float: right;
+}
+.footer_back {
+	font-size: 1em;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700|Ubuntu:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+/*font-family: 'Ubuntu', sans-serif;
+font-family: 'Cuprum', sans-serif;*/
+.header {
+	border: 1px #E0F7FA solid;
+	color: black;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	background-color: #B2EBF2; /*цвет фона MD_Cyan100*/
+	padding: 10px; /* Поля вокруг текста */ 
+}
+.content {
+	border: 1px #E0F7FA solid;
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #E0F7FA; /*цвет фона MD_Cyan50*/
+	padding: 10px; /* Поля вокруг текста */ 
+}
+.never {
+    opacity: 0.3; /* Полупрозрачность элемента */
+   }
