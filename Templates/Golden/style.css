@@ -15,11 +15,10 @@ body {
 	font: 14px 'Times New Roman', sans-serif;
 	background-color: white;
 }
-
-.box-set:before,
+/*.box-set:before,
 .box-set:after {content: ""; display: table;}
-.box-set:after {clear: both;}
-
+.box-set:after {clear: both;}*/
+/*.block:after { content: ""; display: block; clear: both; }*/
 .container {
 	width: 940px;
 	margin: 0 auto;
@@ -32,7 +31,6 @@ body {
 }
 .logo {
 	font: 26px 'Wisdom Script', sans-serif;
-	float: left;
 }
 .logo a {
 	color: #fed136;
@@ -82,7 +80,9 @@ body {
 	border-radius: 3px;
 	background-color:  #fed136;
 	color: white;
-	font: 24px Arial bold;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	font: 24px;
 	text-transform: uppercase;
 	width: 240px;
 	height: 65px;
