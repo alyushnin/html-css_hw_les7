@@ -110,13 +110,15 @@ body {
 	color: #777777;
 	font-size: 16px;
 	font-weight: 400;
+	padding-bottom: 96px;
 }
 .services__item-wrap {
 	
 }
 .services__item {
 	float: left;
-	width: 33.33%
+	width: 33.33%;
+	padding-bottom: 50px; 
 }
 .services__item-title {
 	font-family: Arial;
@@ -126,6 +128,7 @@ body {
 	letter-spacing: -0.45px;
 	line-height: 75px;
 	text-align: center;
+	padding-top: 70px;
 }
 .services__item-description {
 	font-family: 'Times New Roman';
@@ -134,6 +137,21 @@ body {
 	font-weight: 400;
 	letter-spacing: -0.45px;
 	text-align: center;
-	padding: 10px;
 	line-height: 25px;
+}
+.services__e-commerce {
+	background-image: url(img/services__e-commerce.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.services__responsive-web {
+	background-image: url(img/services__responsive-web.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+.services__web-security {
+	background-image: url(img/services__web-security.png);
+	background-repeat: no-repeat;
+	background-position: center top;
 }
